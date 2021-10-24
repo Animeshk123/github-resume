@@ -62,5 +62,10 @@ const data = [
         name: "Disney-hotstar-clone",
         source: "https://github.com/Animeshk123/Disney-hotstar-clone",
         live: "https://animeshk123.github.io/Disney-hotstar-clone/"
+             },
+            {
+            name:"git resume",
+            source:"https://github.com/Animeshk123/github-resume",
+            live:"https://animeshk123.github.io/github-resume/"
              }
     ]
