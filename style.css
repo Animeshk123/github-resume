@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400;500&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 140vh;
+}
+
+.header {
+    width: 100vw;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    background-color: #082032;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px !important;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 500;
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+    color: white;
+
+}
+
+.logo abbr {}
+
+.rest {
+    margin-right: 0.5rem;
+}
+
+.rest li {
+    list-style: none;
+}
+
+.rest li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.center,
+.notlogin {
+    min-width: 300px;
+    max-width: auto;
+    width: auto;
+    padding: 0.8rem 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4),
+        -1px -1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.center label,
+.center input {
+    display: block;
+}
+
+.center input {
+    font-size: 1em;
+    padding: 0.4em 0.5em;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: 0.4s ease all;
+    margin-block: 0.5em;
+}
+
+.center label {
+    text-transform: capitalize;
+    color: #082032;
+}
+
+.center button {
+    border: none;
+    outline: none;
+    padding: 0.5em 0.7em;
+    background-color: #082032;
+    color: white;
+    margin: 0.5em 0;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.center input:focus {
+    border-color: #3E4149 !important;
+}
+
+.notlogin h2 {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+}
+
+.notlogin button {
+    display: block;
+    margin: 0.5em auto;
+    text-decoration: none;
+    color: white !important;
+    border:none;
+    outline: none;
+    background-color: #3D2C8D;
+    border-radius: 7px;
+    padding: 0.6em 1em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.notlogin a {
+    text-decoration: none;
+}
+
+.whole {
+    width: 100vw;
+    height: auto;
+    margin-top: 1.5em;
+}
+
+.container-main {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.7rem 1.2em;
+}
+
+.loginwith {
+    width: 100%;
+    height: auto;
+    padding: 0.6em 0.7em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3),
+        -1px -1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loginwith .profile {
+    width: 6em;
+    height: 6em;
+    margin-left: 0.5em;
+    border-radius: 50%;
+    background-color: #082032;
+}
+
+.loginwith .profile img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.loginwith .imformation {
+    margin: 0 2em;
+    padding: 0.3em 0.6em;
+}
+
+.loginwith .imformation p:nth-child(1) {
+    font-size: 1.4em;
+    letter-spacing: 0.6px;
+}
+
+.loginwith .imformation p h3 {
+    font-weight: 300 !important;
+}
+
+.loginwith .imformation p:nth-child(2) {
+    letter-spacing: 0.6px;
+    font-size: 1.2em;
+}
+
+.container-main h1 {
+    margin: 0.7em 0;
+    font-size: 1.4em;
+    padding: 0.7em 0.8em;
+    text-transform: capitalize;
+    color: #082032;
+}
+
+.container-main .projects .project {
+    width:100%;
+    height: auto;
+    padding: 0.6em 1.3em;
+    padding-bottom: 1.8em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3),
+        -1px -1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 1.7em;
+    overflow: auto!important;
+}
+
+.container-main .projects .project h3 {
+    padding: 0.5em 0;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    color: #3E4149;
+}
+
+.container-main .projects .project p {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    padding-bottom: 0.6em;
+    color: #3E4149;
+    text-transform: capitalize;
+}
+
+.container-main .projects .project a {
+    font-size: 1.3em;
+}
+.fas{
+    color: #007bff!important;
+}
+.load {
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load div {
+    width: 70px;
+    height: 70px;
+    border: 5px solid #082032;
+    border-top-color: transparent!important;
+    border-radius: 50%;
+    transition: 0.43s ease;
+    animation:rotate 1s ease infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width:768px) {
+    html {
+        font-size: 13px !important;
+    }
+    .center {
+        font-size: 15px!important;
+    }
+}
+
+@media screen and (max-width:486px) {
+    html {
+        font-size: 12px !important;
+    }
+
+    .loginwith .profile {
+        width: 70px!important;
+        height: 55px!important;
+    }
+    .center,.notlogin {
+        top: 20%!important;
+    }
+    .center {
+        font-size:15px!important;
+    }
+    .load div {
+        width: 50px!important;
+        height: 50px!important;
+    }
+   
+
+}
